@@ -1,0 +1,16 @@
+{
+  "request" : {
+    "url" : "/api/mock/userInfo",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "jsonBody" : {
+		"name":"mock name ",
+		"age" : "113"
+	},
+    	"headers": {
+      		"Content-Type": "application/json ; charset=UTF8"
+    	}
+  }
+}

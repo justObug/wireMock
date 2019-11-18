@@ -1,0 +1,32 @@
+{
+	"request": {
+		"urlPath": "/api/mock/getinfos",
+		"method": "POST",
+	    "bodyPatterns" : [ {
+			"equalToJson" : "{\"data\":{\"cardNo\":\"0006225780500018471\"},\"header\":{\"userId\":\"APTST01\"}}",
+			"ignoreArrayOrder" : true,
+			"ignoreExtraElements" : true
+	    } ]
+	},
+	"response": {
+    	"status": 200,
+    	"jsonBody": {
+						"code":"0",
+						"msg":"成功",
+						"data":{
+							"custNo":"199400009",
+							"expiMmyy":"965",
+							"affiCode":"501",
+							"cardType":"705",
+							"blockDte":"0",
+							"relationship":"P",
+							"acData":[{"acOrg":"156","acType":"2","acNo":"199400009002001"},{"acOrg":"840","acType":"2","acNo":"199400009002001"}]
+						}
+					},
+    	"headers": {
+      		"Content-Type": "application/json ; charset=UTF8"
+    	}
+  	}
+}
+
+
